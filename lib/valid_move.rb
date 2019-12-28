@@ -15,7 +15,7 @@ end
 
 
 
-def position_taken?(board, index)
+def position_taken?(board, postion)
   if (board[position] == " " || board[position] == "" || board[position] == nil)
     false
   else
