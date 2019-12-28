@@ -1,11 +1,6 @@
-# code your #valid_move? method here
-
-
-# re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
-def some_new_fabulous_method
-  if position_taken?
-    execute something
+def position_taken?(board[], index)
+if (board[index] == " " || board[index] == "" || board[index] == nil)
+    taken = false
   else
-    execute something else
-  end
+    taken = true
 end
